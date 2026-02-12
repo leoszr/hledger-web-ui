@@ -1,0 +1,292 @@
+; hledger journal file - Dados de exemplo
+; Criado em: 2026-02-11
+
+; === CONTAS ===
+account assets:nubank           ; Conta corrente Nubank
+account assets:inter            ; Conta Inter
+account assets:investimentos    ; Investimentos
+account expenses:alimentacao    ; Alimentação
+account expenses:transporte     ; Transporte
+account expenses:moradia        ; Aluguel e contas da casa
+account expenses:saude          ; Saúde e bem-estar
+account expenses:lazer          ; Entretenimento
+account expenses:educacao       ; Cursos e livros
+account income:salario          ; Salário
+account income:freelance        ; Trabalhos freelance
+account liabilities:cartao      ; Cartão de crédito
+
+; === TRANSAÇÕES 2025 ===
+
+; --- Janeiro 2025 ---
+2025-01-05 * Salário Janeiro
+    income:salario                    -8500.00 BRL
+    assets:nubank                      8500.00 BRL
+
+2025-01-06 * Transferência para investimentos
+    assets:nubank                     -2000.00 BRL
+    assets:investimentos               2000.00 BRL
+
+2025-01-08 * Aluguel Janeiro
+    expenses:moradia                   1800.00 BRL
+    assets:nubank                     -1800.00 BRL
+
+2025-01-10 * Supermercado
+    expenses:alimentacao                450.00 BRL
+    assets:nubank                      -450.00 BRL
+
+2025-01-12 * Uber
+    expenses:transporte                  85.00 BRL
+    assets:nubank                       -85.00 BRL
+
+2025-01-15 * Restaurante
+    expenses:alimentacao                120.00 BRL
+    assets:nubank                      -120.00 BRL
+
+2025-01-18 * Cinema
+    expenses:lazer                       80.00 BRL
+    assets:nubank                       -80.00 BRL
+
+2025-01-20 * Farmácia
+    expenses:saude                      150.00 BRL
+    assets:nubank                      -150.00 BRL
+
+2025-01-22 * Curso online Udemy
+    expenses:educacao                    89.90 BRL
+    assets:nubank                       -89.90 BRL
+
+2025-01-25 * Freelance - Cliente A
+    income:freelance                  -1500.00 BRL
+    assets:inter                       1500.00 BRL
+
+2025-01-28 * Supermercado
+    expenses:alimentacao                380.00 BRL
+    assets:nubank                      -380.00 BRL
+
+; --- Fevereiro 2025 ---
+2025-02-05 * Salário Fevereiro
+    income:salario                    -8500.00 BRL
+    assets:nubank                      8500.00 BRL
+
+2025-02-06 * Transferência para investimentos
+    assets:nubank                     -2000.00 BRL
+    assets:investimentos               2000.00 BRL
+
+2025-02-08 * Aluguel Fevereiro
+    expenses:moradia                   1800.00 BRL
+    assets:nubank                     -1800.00 BRL
+
+2025-02-10 * Conta de luz
+    expenses:moradia                    180.00 BRL
+    assets:nubank                      -180.00 BRL
+
+2025-02-12 * Supermercado
+    expenses:alimentacao                420.00 BRL
+    assets:nubank                      -420.00 BRL
+
+2025-02-14 * Jantar romântico
+    expenses:alimentacao                250.00 BRL
+    assets:nubank                      -250.00 BRL
+
+2025-02-16 * Gasolina
+    expenses:transporte                 200.00 BRL
+    assets:nubank                      -200.00 BRL
+
+2025-02-18 * Academia
+    expenses:saude                      120.00 BRL
+    assets:nubank                      -120.00 BRL
+
+2025-02-20 * Netflix
+    expenses:lazer                       55.90 BRL
+    assets:nubank                       -55.90 BRL
+
+2025-02-25 * Freelance - Cliente B
+    income:freelance                  -2000.00 BRL
+    assets:inter                       2000.00 BRL
+
+2025-02-27 * Supermercado
+    expenses:alimentacao                390.00 BRL
+    assets:nubank                      -390.00 BRL
+
+; --- Março 2025 ---
+2025-03-05 * Salário Março
+    income:salario                    -8500.00 BRL
+    assets:nubank                      8500.00 BRL
+
+2025-03-06 * Transferência para investimentos
+    assets:nubank                     -2500.00 BRL
+    assets:investimentos               2500.00 BRL
+
+2025-03-08 * Aluguel Março
+    expenses:moradia                   1800.00 BRL
+    assets:nubank                     -1800.00 BRL
+
+2025-03-10 * Conta de água
+    expenses:moradia                     90.00 BRL
+    assets:nubank                       -90.00 BRL
+
+2025-03-12 * Supermercado
+    expenses:alimentacao                460.00 BRL
+    assets:nubank                      -460.00 BRL
+
+2025-03-15 * Uber
+    expenses:transporte                  95.00 BRL
+    assets:nubank                       -95.00 BRL
+
+2025-03-18 * Livros técnicos
+    expenses:educacao                   180.00 BRL
+    assets:nubank                      -180.00 BRL
+
+2025-03-20 * Dentista
+    expenses:saude                      350.00 BRL
+    assets:nubank                      -350.00 BRL
+
+2025-03-22 * Show
+    expenses:lazer                      200.00 BRL
+    assets:nubank                      -200.00 BRL
+
+2025-03-25 * Freelance - Cliente C
+    income:freelance                  -1800.00 BRL
+    assets:inter                       1800.00 BRL
+
+2025-03-28 * Supermercado
+    expenses:alimentacao                410.00 BRL
+    assets:nubank                      -410.00 BRL
+
+; --- Abril 2025 ---
+2025-04-05 * Salário Abril
+    income:salario                    -8500.00 BRL
+    assets:nubank                      8500.00 BRL
+
+2025-04-06 * Transferência para investimentos
+    assets:nubank                     -2000.00 BRL
+    assets:investimentos               2000.00 BRL
+
+2025-04-08 * Aluguel Abril
+    expenses:moradia                   1800.00 BRL
+    assets:nubank                     -1800.00 BRL
+
+2025-04-10 * Internet
+    expenses:moradia                    120.00 BRL
+    assets:nubank                      -120.00 BRL
+
+2025-04-12 * Supermercado
+    expenses:alimentacao                440.00 BRL
+    assets:nubank                      -440.00 BRL
+
+2025-04-15 * Restaurante
+    expenses:alimentacao                180.00 BRL
+    assets:nubank                      -180.00 BRL
+
+2025-04-18 * Uber
+    expenses:transporte                  75.00 BRL
+    assets:nubank                       -75.00 BRL
+
+2025-04-20 * Spotify
+    expenses:lazer                       34.90 BRL
+    assets:nubank                       -34.90 BRL
+
+2025-04-22 * Farmácia
+    expenses:saude                       95.00 BRL
+    assets:nubank                       -95.00 BRL
+
+2025-04-25 * Freelance - Cliente A
+    income:freelance                  -2200.00 BRL
+    assets:inter                       2200.00 BRL
+
+2025-04-28 * Supermercado
+    expenses:alimentacao                400.00 BRL
+    assets:nubank                      -400.00 BRL
+
+; --- Maio 2025 ---
+2025-05-05 * Salário Maio
+    income:salario                    -8500.00 BRL
+    assets:nubank                      8500.00 BRL
+
+2025-05-06 * Transferência para investimentos
+    assets:nubank                     -2000.00 BRL
+    assets:investimentos               2000.00 BRL
+
+2025-05-08 * Aluguel Maio
+    expenses:moradia                   1800.00 BRL
+    assets:nubank                     -1800.00 BRL
+
+2025-05-10 * Conta de luz
+    expenses:moradia                    195.00 BRL
+    assets:nubank                      -195.00 BRL
+
+2025-05-12 * Supermercado
+    expenses:alimentacao                470.00 BRL
+    assets:nubank                      -470.00 BRL
+
+2025-05-15 * Gasolina
+    expenses:transporte                 210.00 BRL
+    assets:nubank                      -210.00 BRL
+
+2025-05-18 * Cinema
+    expenses:lazer                       90.00 BRL
+    assets:nubank                       -90.00 BRL
+
+2025-05-20 * Academia
+    expenses:saude                      120.00 BRL
+    assets:nubank                      -120.00 BRL
+
+2025-05-22 * Curso online
+    expenses:educacao                   149.90 BRL
+    assets:nubank                      -149.90 BRL
+
+2025-05-25 * Freelance - Cliente D
+    income:freelance                  -1700.00 BRL
+    assets:inter                       1700.00 BRL
+
+2025-05-28 * Supermercado
+    expenses:alimentacao                430.00 BRL
+    assets:nubank                      -430.00 BRL
+
+; --- Junho 2025 ---
+2025-06-05 * Salário Junho
+    income:salario                    -8500.00 BRL
+    assets:nubank                      8500.00 BRL
+
+2025-06-06 * Transferência para investimentos
+    assets:nubank                     -2500.00 BRL
+    assets:investimentos               2500.00 BRL
+
+2025-06-08 * Aluguel Junho
+    expenses:moradia                   1800.00 BRL
+    assets:nubank                     -1800.00 BRL
+
+2025-06-10 * Supermercado
+    expenses:alimentacao                450.00 BRL
+    assets:nubank                      -450.00 BRL
+
+2025-06-12 * Uber
+    expenses:transporte                  88.00 BRL
+    assets:nubank                       -88.00 BRL
+
+2025-06-15 * Restaurante
+    expenses:alimentacao                220.00 BRL
+    assets:nubank                      -220.00 BRL
+
+2025-06-18 * Netflix
+    expenses:lazer                       55.90 BRL
+    assets:nubank                       -55.90 BRL
+
+2025-06-20 * Médico
+    expenses:saude                      280.00 BRL
+    assets:nubank                      -280.00 BRL
+
+2025-06-22 * Livraria
+    expenses:educacao                    95.00 BRL
+    assets:nubank                       -95.00 BRL
+
+2025-06-25 * Freelance - Cliente E
+    income:freelance                  -2500.00 BRL
+    assets:inter                       2500.00 BRL
+
+2025-06-28 * Supermercado
+    expenses:alimentacao                415.00 BRL
+    assets:nubank                      -415.00 BRL
+
+2025-06-30 * Conta de água
+    expenses:moradia                     95.00 BRL
+    assets:nubank                       -95.00 BRL
