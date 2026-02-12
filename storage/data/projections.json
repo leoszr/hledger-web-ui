@@ -1,1 +1,584 @@
-[]
+{
+  "projections": [
+    {
+      "id": "b2e70140-25dc-4692-bdb4-945f8cb9459f",
+      "createdAt": "2026-02-12T00:36:24.155Z",
+      "parameters": {
+        "baseMonths": 2,
+        "horizonMonths": 6,
+        "method": "average",
+        "fromDate": "2025-12-01",
+        "toDate": "2026-02-01"
+      },
+      "results": []
+    },
+    {
+      "id": "6540d0c4-8770-42cb-b757-ba2f2390a22b",
+      "createdAt": "2026-02-12T00:58:56.111Z",
+      "parameters": {
+        "baseMonths": 3,
+        "horizonMonths": 6,
+        "method": "average",
+        "fromDate": "2025-11-01",
+        "toDate": "2026-02-01"
+      },
+      "results": []
+    },
+    {
+      "id": "2a42e5ba-7fdd-4c5d-8b67-d43abe7330ed",
+      "createdAt": "2026-02-12T01:06:18.010Z",
+      "parameters": {
+        "baseMonths": 3,
+        "horizonMonths": 6,
+        "method": "average",
+        "fromDate": "2025-11-01",
+        "toDate": "2026-02-01"
+      },
+      "results": []
+    },
+    {
+      "id": "46a1d131-144e-4572-b915-5b8ee0c228bb",
+      "createdAt": "2026-02-12T01:13:26.600Z",
+      "parameters": {
+        "baseMonths": 3,
+        "horizonMonths": 6,
+        "method": "linear",
+        "fromDate": "2025-11-01",
+        "toDate": "2026-02-01"
+      },
+      "results": []
+    },
+    {
+      "id": "0c350de8-f320-4be3-bddc-0b7658574dd6",
+      "createdAt": "2026-02-12T01:13:29.566Z",
+      "parameters": {
+        "baseMonths": 3,
+        "horizonMonths": 6,
+        "method": "average",
+        "fromDate": "2025-11-01",
+        "toDate": "2026-02-01"
+      },
+      "results": []
+    },
+    {
+      "id": "b86e789c-230b-4909-9f79-a80c4eb5eed7",
+      "createdAt": "2026-02-12T01:15:41.874Z",
+      "parameters": {
+        "baseMonths": 3,
+        "horizonMonths": 6,
+        "method": "average",
+        "fromDate": "2025-11-01",
+        "toDate": "2026-02-01"
+      },
+      "results": []
+    },
+    {
+      "id": "4c063cfe-f6b9-4710-a84a-e2f2d815cc0c",
+      "createdAt": "2026-02-12T01:17:31.218Z",
+      "parameters": {
+        "baseMonths": 2,
+        "horizonMonths": 6,
+        "method": "average",
+        "fromDate": "2025-12-01",
+        "toDate": "2026-02-01"
+      },
+      "results": [
+        {
+          "month": "2026-03",
+          "projectedBalance": 12875.8,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-04",
+          "projectedBalance": 19313.7,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-05",
+          "projectedBalance": 25751.6,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-06",
+          "projectedBalance": 32189.5,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-07",
+          "projectedBalance": 38627.4,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-08",
+          "projectedBalance": 45065.3,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        }
+      ]
+    },
+    {
+      "id": "c38dd19d-b871-4d85-960d-0ff5247105db",
+      "createdAt": "2026-02-12T01:17:42.485Z",
+      "parameters": {
+        "baseMonths": 3,
+        "horizonMonths": 12,
+        "method": "linear",
+        "fromDate": "2025-11-01",
+        "toDate": "2026-02-01"
+      },
+      "results": [
+        {
+          "month": "2026-03",
+          "projectedBalance": 12875.8,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-04",
+          "projectedBalance": 19313.7,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-05",
+          "projectedBalance": 25751.6,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-06",
+          "projectedBalance": 32189.5,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-07",
+          "projectedBalance": 38627.4,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-08",
+          "projectedBalance": 45065.3,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-09",
+          "projectedBalance": 51503.2,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-10",
+          "projectedBalance": 57941.1,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-11",
+          "projectedBalance": 64379,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-12",
+          "projectedBalance": 70816.9,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2027-01",
+          "projectedBalance": 77254.8,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2027-02",
+          "projectedBalance": 83692.7,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        }
+      ]
+    },
+    {
+      "id": "b5d7721a-dc63-4b75-88b0-7529cbe23757",
+      "createdAt": "2026-02-12T01:18:37.988Z",
+      "parameters": {
+        "baseMonths": 2,
+        "horizonMonths": 3,
+        "method": "average",
+        "fromDate": "2025-12-01",
+        "toDate": "2026-02-01"
+      },
+      "results": [
+        {
+          "month": "2026-03",
+          "projectedBalance": 12875.8,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-04",
+          "projectedBalance": 19313.7,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-05",
+          "projectedBalance": 25751.6,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        }
+      ]
+    },
+    {
+      "id": "ee7888de-d384-4881-bc66-e5f1b854eb5e",
+      "createdAt": "2026-02-12T01:19:06.619Z",
+      "parameters": {
+        "baseMonths": 3,
+        "horizonMonths": 6,
+        "method": "average",
+        "fromDate": "2025-11-01",
+        "toDate": "2026-02-01"
+      },
+      "results": [
+        {
+          "month": "2026-03",
+          "projectedBalance": 12875.8,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-04",
+          "projectedBalance": 19313.7,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-05",
+          "projectedBalance": 25751.6,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-06",
+          "projectedBalance": 32189.5,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-07",
+          "projectedBalance": 38627.4,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-08",
+          "projectedBalance": 45065.3,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        }
+      ]
+    },
+    {
+      "id": "0563e2d1-12e2-48a3-bd50-a4a412749c1a",
+      "createdAt": "2026-02-12T01:19:18.769Z",
+      "parameters": {
+        "baseMonths": 3,
+        "horizonMonths": 6,
+        "method": "linear",
+        "fromDate": "2025-11-01",
+        "toDate": "2026-02-01"
+      },
+      "results": [
+        {
+          "month": "2026-03",
+          "projectedBalance": 12875.8,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-04",
+          "projectedBalance": 19313.7,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-05",
+          "projectedBalance": 25751.6,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-06",
+          "projectedBalance": 32189.5,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-07",
+          "projectedBalance": 38627.4,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-08",
+          "projectedBalance": 45065.3,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        }
+      ]
+    },
+    {
+      "id": "026523e8-bf7d-4b31-94ff-6da955964fae",
+      "createdAt": "2026-02-12T01:19:44.035Z",
+      "parameters": {
+        "baseMonths": 12,
+        "horizonMonths": 6,
+        "method": "linear",
+        "fromDate": "2025-02-01",
+        "toDate": "2026-02-01"
+      },
+      "results": [
+        {
+          "month": "2026-03",
+          "projectedBalance": 12875.8,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-04",
+          "projectedBalance": 19313.7,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-05",
+          "projectedBalance": 25751.6,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-06",
+          "projectedBalance": 32189.5,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-07",
+          "projectedBalance": 38627.4,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-08",
+          "projectedBalance": 45065.3,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        }
+      ]
+    },
+    {
+      "id": "ce9dc1a8-f5c3-4aa4-8100-a0c6c68f5dff",
+      "createdAt": "2026-02-12T01:39:04.462Z",
+      "parameters": {
+        "baseMonths": 3,
+        "horizonMonths": 6,
+        "method": "average",
+        "fromDate": "2025-11-01",
+        "toDate": "2026-02-01"
+      },
+      "results": [
+        {
+          "month": "2026-03",
+          "projectedBalance": 12875.8,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-04",
+          "projectedBalance": 19313.7,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-05",
+          "projectedBalance": 25751.6,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-06",
+          "projectedBalance": 32189.5,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-07",
+          "projectedBalance": 38627.4,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-08",
+          "projectedBalance": 45065.3,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        }
+      ]
+    },
+    {
+      "id": "d6114dae-4bfe-41ea-8dfa-492524c90c48",
+      "createdAt": "2026-02-12T01:39:19.931Z",
+      "parameters": {
+        "baseMonths": 3,
+        "horizonMonths": 6,
+        "method": "linear",
+        "fromDate": "2025-11-01",
+        "toDate": "2026-02-01"
+      },
+      "results": [
+        {
+          "month": "2026-03",
+          "projectedBalance": 12875.8,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-04",
+          "projectedBalance": 19313.7,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-05",
+          "projectedBalance": 25751.6,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-06",
+          "projectedBalance": 32189.5,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-07",
+          "projectedBalance": 38627.4,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-08",
+          "projectedBalance": 45065.3,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        }
+      ]
+    },
+    {
+      "id": "025209e7-c6d7-4f93-b8ab-a72930159cf6",
+      "createdAt": "2026-02-12T01:40:21.770Z",
+      "parameters": {
+        "baseMonths": 3,
+        "horizonMonths": 6,
+        "method": "average",
+        "fromDate": "2025-11-01",
+        "toDate": "2026-02-01"
+      },
+      "results": [
+        {
+          "month": "2026-03",
+          "projectedBalance": 12875.8,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-04",
+          "projectedBalance": 19313.7,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-05",
+          "projectedBalance": 25751.6,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-06",
+          "projectedBalance": 32189.5,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-07",
+          "projectedBalance": 38627.4,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-08",
+          "projectedBalance": 45065.3,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        }
+      ]
+    },
+    {
+      "id": "e43282fd-b7ae-4746-9cc4-03589a93b8c5",
+      "createdAt": "2026-02-12T01:40:26.203Z",
+      "parameters": {
+        "baseMonths": 3,
+        "horizonMonths": 6,
+        "method": "average",
+        "fromDate": "2025-11-01",
+        "toDate": "2026-02-01"
+      },
+      "results": [
+        {
+          "month": "2026-03",
+          "projectedBalance": 12875.8,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-04",
+          "projectedBalance": 19313.7,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-05",
+          "projectedBalance": 25751.6,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-06",
+          "projectedBalance": 32189.5,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-07",
+          "projectedBalance": 38627.4,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        },
+        {
+          "month": "2026-08",
+          "projectedBalance": 45065.3,
+          "projectedIncome": 11045.8,
+          "projectedExpenses": 4607.9
+        }
+      ]
+    }
+  ]
+}

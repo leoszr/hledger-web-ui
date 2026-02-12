@@ -1,0 +1,32 @@
+[0;34m========================================[0m
+[0;34m   hledger Web UI - Startup Script[0m
+[0;34m========================================[0m
+
+[0;32m✓[0m Pré-requisitos verificados (hledger, node)
+
+[0;34m→[0m Parando processos anteriores...
+[0;34m→[0m Verificando dependências...
+[0;32m✓[0m Dependências OK
+
+[0;34m→[0m Iniciando backend (porta 3000)...
+[1;33m⚠️  Backend falhou ao iniciar. Verifique backend.log[0m
+               ^
+
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at ExpressAdapter.listen (/home/leo/Projects/hledger-web-ui/backend/node_modules/@nestjs/platform-express/adapters/express-adapter.js:127:32)
+    at /home/leo/Projects/hledger-web-ui/backend/node_modules/@nestjs/core/nest-application.js:188:30
+    at new Promise (<anonymous>)
+    at NestApplication.listen (/home/leo/Projects/hledger-web-ui/backend/node_modules/@nestjs/core/nest-application.js:178:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async bootstrap (/home/leo/Projects/hledger-web-ui/backend/dist/main.js:11:5) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3000
+}
+
+Node.js v22.19.0

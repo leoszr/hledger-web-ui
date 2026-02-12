@@ -67,3 +67,17 @@ export function getPathsInfo() {
     rulesJson: RULES_JSON,
   };
 }
+
+/**
+ * Objeto agregado com todos os paths (facilita imports)
+ */
+export const PATHS = {
+  STORAGE_ROOT,
+  JOURNALS_DIR,
+  DATA_DIR,
+  JOURNAL_PATH,
+  SETTINGS_JSON,
+  PROJECTIONS_JSON,
+  INVESTMENTS_JSON,
+  RULES_JSON,
+};

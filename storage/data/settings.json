@@ -1,10 +1,8 @@
 {
-  "currency": "BRL",
-  "dateFormat": "ISO",
   "journal": {
-    "originalName": "main.journal",
-    "lastUploadAt": "2026-02-11T00:00:00.000Z",
-    "sizeBytes": 0,
-    "sha256": ""
+    "originalName": "test.journal",
+    "lastUploadAt": "2026-02-12T00:29:03.615Z",
+    "sizeBytes": 17,
+    "sha256": "4b530bbf407f5a6246d4d99c5b7c2be9a15d49c5e952dc7f33d90d50ed964487"
   }
 }

@@ -1,1 +1,14 @@
-[]
+{
+  "investments": [
+    {
+      "id": "4a4b49b7-0191-483f-8fe6-69bbcab4cdd0",
+      "ticker": "PETR4",
+      "quantidade": 100,
+      "precoMedio": 40,
+      "tipo": "acao",
+      "valorTotal": 4000,
+      "createdAt": "2026-02-12T01:38:57.744Z",
+      "updatedAt": "2026-02-12T01:38:57.744Z"
+    }
+  ]
+}
